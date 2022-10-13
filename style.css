@@ -20,9 +20,14 @@ body{
 }
 
 .nav-item.dropdown a, .nav-item a, .d-flex a, .d-flex button{
-    color: #696969 !important;
+    color: #696969 ;
     font-size: 13px;
+    font-family: 'Epilogue';
     margin: 0 0 0 20px;
+}
+
+.nav-item.dropdown a:hover, .nav-item a:hover, .d-flex a:hover, .d-flex button:hover{
+    color: #141414;
 }
 
 .btn{
@@ -38,6 +43,9 @@ body{
     box-shadow: none !important;
 }
 
+.btn.btn-outline-success:focus{
+    box-shadow: none !important;
+}
 .hero h1{
     font-size: 70px;
     font-weight: 700;
