@@ -1,0 +1,21 @@
+.btn.btn-outline-success{
+    color: #696969 !important;
+    border-color:#696969 !important;
+    border-radius: 10px;
+}
+
+body{
+    font-family: 'Epilogue';
+}
+
+.navbar-brand{
+    color: #141414;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-item.dropdown a, .nav-item a{
+    color: #696969 !important;
+    font-size: 13px;
+    margin: 0 0 0 20px;
+}
