@@ -30,12 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./intro-section.png)
+![](images/intro-section.png)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://rubbydoc.github.io/intro-section-with-dropdown-navigation/)
+- Live Site URL: [https://rubbydoc.github.io/intro-section-with-dropdown-navigation/]()
 
 ## My process
 
