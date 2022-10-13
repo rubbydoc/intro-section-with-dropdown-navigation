@@ -56,7 +56,7 @@ body{
 .hero p{
     padding-bottom: 30px;
     color: #696969;
-    width: 480px;
+    /* width: 480px; */
 }
 
 
@@ -86,17 +86,18 @@ body{
     border: 1px solid black;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:991px) {
     .hero p{
-     width: 200%;
+     /* width: 200%; */
      text-align: center;
-     margin-left: auto;
+     /* margin-left: auto; */
     }
 
     .hero h1{
         /* font-size: 300%; */
+        padding-top: 30px;
         text-align: center;
-        width: 200%;
+        /* width: 200%; */
         
     }
 
@@ -105,10 +106,14 @@ body{
     }
 
     .clients{
-        width: 200%;
+        width: 100%;
     }
 
 
 
     
+}
+
+.learn{
+    width: 150px;
 }
