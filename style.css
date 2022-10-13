@@ -31,8 +31,24 @@ body{
 
 .col p , .btn{
     font-size: 18px;
+    font-family: 'Epilogue';
 }
 
 .navbar-toggler:focus{
     box-shadow: none !important;
+}
+
+.col h1{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 70px;
+    padding-bottom: 40px;
+}
+
+.col p{
+    padding-bottom: 30px;
+}
+
+.btn.bg-dark{
+    border-radius: 10px;
 }
