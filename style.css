@@ -20,9 +20,14 @@ body{
 }
 
 .nav-item.dropdown a, .nav-item a, .d-flex a, .d-flex button{
-    color: #696969 !important;
+    color: #696969 ;
     font-size: 13px;
+    font-family: 'Epilogue';
     margin: 0 0 0 20px;
+}
+
+.nav-item.dropdown a:hover, .nav-item a:hover, .d-flex a:hover, .d-flex button:hover{
+    color: #141414;
 }
 
 .btn{
@@ -38,6 +43,9 @@ body{
     box-shadow: none !important;
 }
 
+.btn.btn-outline-success:focus{
+    box-shadow: none !important;
+}
 .hero h1{
     font-size: 70px;
     font-weight: 700;
@@ -48,16 +56,10 @@ body{
 .hero p{
     padding-bottom: 30px;
     color: #696969;
-    width: 480px;
+    /* width: 480px; */
 }
 
-.btn.bg-dark{
-    border-radius: 10px;
-    font-size: 13px;
-    padding-left: 15px;
-    padding-right: 15px;
 
-}
 
 
 .clients img{
@@ -65,4 +67,53 @@ body{
     padding-top: 100px;
     height: auto;
     width:100px;
+}
+
+
+.hero button.btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.hero button.btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width:991px) {
+    .hero p{
+     /* width: 200%; */
+     text-align: center;
+     /* margin-left: auto; */
+    }
+
+    .hero h1{
+        /* font-size: 300%; */
+        padding-top: 30px;
+        text-align: center;
+        /* width: 200%; */
+        
+    }
+
+    .hero button{
+      
+    }
+
+    .clients{
+        width: 100%;
+    }
+
+
+
+    
+}
+
+.learn{
+    width: 150px;
 }
