@@ -58,3 +58,11 @@ body{
     padding-right: 15px;
 
 }
+
+
+.clients img{
+    padding-right: 40px;
+    padding-top: 100px;
+    height: auto;
+    width:100px;
+}
