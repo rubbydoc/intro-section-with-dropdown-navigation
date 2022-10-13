@@ -25,3 +25,14 @@ body{
     margin: 0 0 0 20px;
 }
 
+.btn{
+    border-radius: 10px;
+}
+
+.col p , .btn{
+    font-size: 18px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
